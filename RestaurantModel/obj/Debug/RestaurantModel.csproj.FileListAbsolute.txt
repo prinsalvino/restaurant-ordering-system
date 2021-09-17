@@ -1,0 +1,6 @@
+C:\Users\prins\Documents\GitHub\restaurant-ordering-system\RestaurantModel\obj\Debug\RestaurantModel.csprojAssemblyReference.cache
+C:\Users\prins\Documents\GitHub\restaurant-ordering-system\RestaurantModel\bin\Debug\RestaurantModel.dll.config
+C:\Users\prins\Documents\GitHub\restaurant-ordering-system\RestaurantModel\bin\Debug\RestaurantModel.dll
+C:\Users\prins\Documents\GitHub\restaurant-ordering-system\RestaurantModel\bin\Debug\RestaurantModel.pdb
+C:\Users\prins\Documents\GitHub\restaurant-ordering-system\RestaurantModel\obj\Debug\RestaurantModel.dll
+C:\Users\prins\Documents\GitHub\restaurant-ordering-system\RestaurantModel\obj\Debug\RestaurantModel.pdb

@@ -1,0 +1,131 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="chapeau1819sdb02DataSet1" targetNamespace="http://tempuri.org/chapeau1819sdb02DataSet1.xsd" xmlns:mstns="http://tempuri.org/chapeau1819sdb02DataSet1.xsd" xmlns="http://tempuri.org/chapeau1819sdb02DataSet1.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+          <Connection AppSettingsObjectName="Settings" AppSettingsPropertyName="chapeau1819sdb02ConnectionString" ConnectionStringObject="" IsAppSettingsProperty="true" Modifier="Assembly" Name="chapeau1819sdb02ConnectionString (Settings)" ParameterPrefix="@" PropertyReference="ApplicationSettings.Restaurant_UI.Properties.Settings.GlobalReference.Default.chapeau1819sdb02ConnectionString" Provider="System.Data.SqlClient" />
+        </Connections>
+        <Tables>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="DrinkOrdersTableAdapter" GeneratorDataComponentClassName="DrinkOrdersTableAdapter" Name="DrinkOrders" UserDataComponentName="DrinkOrdersTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="chapeau1819sdb02ConnectionString (Settings)" DbObjectName="chapeau1819sdb02.dbo.DrinkOrders" DbObjectType="View" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="false" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>SELECT Name, Quantity, Comment, State, TakenAt, OrderID, Id, TableId FROM dbo.DrinkOrders</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="Name" DataSetColumn="Name" />
+              <Mapping SourceColumn="Quantity" DataSetColumn="Quantity" />
+              <Mapping SourceColumn="Comment" DataSetColumn="Comment" />
+              <Mapping SourceColumn="State" DataSetColumn="State" />
+              <Mapping SourceColumn="TakenAt" DataSetColumn="TakenAt" />
+              <Mapping SourceColumn="OrderID" DataSetColumn="OrderID" />
+              <Mapping SourceColumn="Id" DataSetColumn="Id" />
+              <Mapping SourceColumn="TableId" DataSetColumn="TableId" />
+            </Mappings>
+            <Sources />
+          </TableAdapter>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="FoodOrdersTableAdapter" GeneratorDataComponentClassName="FoodOrdersTableAdapter" Name="FoodOrders" UserDataComponentName="FoodOrdersTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="chapeau1819sdb02ConnectionString (Settings)" DbObjectName="chapeau1819sdb02.dbo.FoodOrders" DbObjectType="View" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="false" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>SELECT Name, Quantity, Comment, State, TakenAt, OrderID, Id, TableId FROM dbo.FoodOrders</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="Name" DataSetColumn="Name" />
+              <Mapping SourceColumn="Quantity" DataSetColumn="Quantity" />
+              <Mapping SourceColumn="Comment" DataSetColumn="Comment" />
+              <Mapping SourceColumn="State" DataSetColumn="State" />
+              <Mapping SourceColumn="TakenAt" DataSetColumn="TakenAt" />
+              <Mapping SourceColumn="OrderID" DataSetColumn="OrderID" />
+              <Mapping SourceColumn="Id" DataSetColumn="Id" />
+              <Mapping SourceColumn="TableId" DataSetColumn="TableId" />
+            </Mappings>
+            <Sources />
+          </TableAdapter>
+        </Tables>
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="chapeau1819sdb02DataSet1" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="True" msprop:Generator_DataSetName="chapeau1819sdb02DataSet1" msprop:Generator_UserDSName="chapeau1819sdb02DataSet1">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="DrinkOrders" msprop:Generator_TableClassName="DrinkOrdersDataTable" msprop:Generator_TableVarName="tableDrinkOrders" msprop:Generator_TablePropName="DrinkOrders" msprop:Generator_RowDeletingName="DrinkOrdersRowDeleting" msprop:Generator_RowChangingName="DrinkOrdersRowChanging" msprop:Generator_RowEvHandlerName="DrinkOrdersRowChangeEventHandler" msprop:Generator_RowDeletedName="DrinkOrdersRowDeleted" msprop:Generator_UserTableName="DrinkOrders" msprop:Generator_RowChangedName="DrinkOrdersRowChanged" msprop:Generator_RowEvArgName="DrinkOrdersRowChangeEvent" msprop:Generator_RowClassName="DrinkOrdersRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Name" msprop:Generator_ColumnVarNameInTable="columnName" msprop:Generator_ColumnPropNameInRow="Name" msprop:Generator_ColumnPropNameInTable="NameColumn" msprop:Generator_UserColumnName="Name" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="2147483647" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Quantity" msprop:Generator_ColumnVarNameInTable="columnQuantity" msprop:Generator_ColumnPropNameInRow="Quantity" msprop:Generator_ColumnPropNameInTable="QuantityColumn" msprop:Generator_UserColumnName="Quantity" type="xs:int" minOccurs="0" />
+              <xs:element name="Comment" msprop:Generator_ColumnVarNameInTable="columnComment" msprop:Generator_ColumnPropNameInRow="Comment" msprop:Generator_ColumnPropNameInTable="CommentColumn" msprop:Generator_UserColumnName="Comment" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="2147483647" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="State" msprop:Generator_ColumnVarNameInTable="columnState" msprop:Generator_ColumnPropNameInRow="State" msprop:Generator_ColumnPropNameInTable="StateColumn" msprop:Generator_UserColumnName="State">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="15" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="TakenAt" msprop:Generator_ColumnVarNameInTable="columnTakenAt" msprop:Generator_ColumnPropNameInRow="TakenAt" msprop:Generator_ColumnPropNameInTable="TakenAtColumn" msprop:Generator_UserColumnName="TakenAt" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="OrderID" msprop:Generator_ColumnVarNameInTable="columnOrderID" msprop:Generator_ColumnPropNameInRow="OrderID" msprop:Generator_ColumnPropNameInTable="OrderIDColumn" msprop:Generator_UserColumnName="OrderID" type="xs:int" />
+              <xs:element name="Id" msprop:Generator_ColumnVarNameInTable="columnId" msprop:Generator_ColumnPropNameInRow="Id" msprop:Generator_ColumnPropNameInTable="IdColumn" msprop:Generator_UserColumnName="Id" type="xs:int" />
+              <xs:element name="TableId" msprop:Generator_ColumnVarNameInTable="columnTableId" msprop:Generator_ColumnPropNameInRow="TableId" msprop:Generator_ColumnPropNameInTable="TableIdColumn" msprop:Generator_UserColumnName="TableId" type="xs:int" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="FoodOrders" msprop:Generator_TableClassName="FoodOrdersDataTable" msprop:Generator_TableVarName="tableFoodOrders" msprop:Generator_TablePropName="FoodOrders" msprop:Generator_RowDeletingName="FoodOrdersRowDeleting" msprop:Generator_RowChangingName="FoodOrdersRowChanging" msprop:Generator_RowEvHandlerName="FoodOrdersRowChangeEventHandler" msprop:Generator_RowDeletedName="FoodOrdersRowDeleted" msprop:Generator_UserTableName="FoodOrders" msprop:Generator_RowChangedName="FoodOrdersRowChanged" msprop:Generator_RowEvArgName="FoodOrdersRowChangeEvent" msprop:Generator_RowClassName="FoodOrdersRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Name" msprop:Generator_ColumnVarNameInTable="columnName" msprop:Generator_ColumnPropNameInRow="Name" msprop:Generator_ColumnPropNameInTable="NameColumn" msprop:Generator_UserColumnName="Name" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="2147483647" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Quantity" msprop:Generator_ColumnVarNameInTable="columnQuantity" msprop:Generator_ColumnPropNameInRow="Quantity" msprop:Generator_ColumnPropNameInTable="QuantityColumn" msprop:Generator_UserColumnName="Quantity" type="xs:int" minOccurs="0" />
+              <xs:element name="Comment" msprop:Generator_ColumnVarNameInTable="columnComment" msprop:Generator_ColumnPropNameInRow="Comment" msprop:Generator_ColumnPropNameInTable="CommentColumn" msprop:Generator_UserColumnName="Comment" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="2147483647" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="State" msprop:Generator_ColumnVarNameInTable="columnState" msprop:Generator_ColumnPropNameInRow="State" msprop:Generator_ColumnPropNameInTable="StateColumn" msprop:Generator_UserColumnName="State">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="15" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="TakenAt" msprop:Generator_ColumnVarNameInTable="columnTakenAt" msprop:Generator_ColumnPropNameInRow="TakenAt" msprop:Generator_ColumnPropNameInTable="TakenAtColumn" msprop:Generator_UserColumnName="TakenAt" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="OrderID" msprop:Generator_ColumnVarNameInTable="columnOrderID" msprop:Generator_ColumnPropNameInRow="OrderID" msprop:Generator_ColumnPropNameInTable="OrderIDColumn" msprop:Generator_UserColumnName="OrderID" type="xs:int" />
+              <xs:element name="Id" msprop:Generator_ColumnVarNameInTable="columnId" msprop:Generator_ColumnPropNameInRow="Id" msprop:Generator_ColumnPropNameInTable="IdColumn" msprop:Generator_UserColumnName="Id" type="xs:int" />
+              <xs:element name="TableId" msprop:Generator_ColumnVarNameInTable="columnTableId" msprop:Generator_ColumnPropNameInRow="TableId" msprop:Generator_ColumnPropNameInTable="TableIdColumn" msprop:Generator_UserColumnName="TableId" type="xs:int" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

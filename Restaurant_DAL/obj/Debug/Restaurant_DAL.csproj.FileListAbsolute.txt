@@ -1,0 +1,10 @@
+C:\Users\prins\Documents\GitHub\restaurant-ordering-system\Restaurant_DAL\obj\Debug\Restaurant_DAL.csprojAssemblyReference.cache
+C:\Users\prins\Documents\GitHub\restaurant-ordering-system\Restaurant_DAL\bin\Debug\Restaurant_DAL.dll.config
+C:\Users\prins\Documents\GitHub\restaurant-ordering-system\Restaurant_DAL\bin\Debug\Restaurant_DAL.dll
+C:\Users\prins\Documents\GitHub\restaurant-ordering-system\Restaurant_DAL\bin\Debug\Restaurant_DAL.pdb
+C:\Users\prins\Documents\GitHub\restaurant-ordering-system\Restaurant_DAL\bin\Debug\RestaurantModel.dll
+C:\Users\prins\Documents\GitHub\restaurant-ordering-system\Restaurant_DAL\bin\Debug\RestaurantModel.pdb
+C:\Users\prins\Documents\GitHub\restaurant-ordering-system\Restaurant_DAL\bin\Debug\RestaurantModel.dll.config
+C:\Users\prins\Documents\GitHub\restaurant-ordering-system\Restaurant_DAL\obj\Debug\Restaurant_DAL.csproj.CopyComplete
+C:\Users\prins\Documents\GitHub\restaurant-ordering-system\Restaurant_DAL\obj\Debug\Restaurant_DAL.dll
+C:\Users\prins\Documents\GitHub\restaurant-ordering-system\Restaurant_DAL\obj\Debug\Restaurant_DAL.pdb

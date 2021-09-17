@@ -1,0 +1,92 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Restaurant_Logic.Employee_Service">
+    <Position X="8" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAgAAAAAAAAAAAAAAAAAgAIAAIAAAAAAA=</HashCode>
+      <FileName>Employee_Service.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Employee_db" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="Restaurant_Logic.Login_Service">
+    <Position X="12.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAALAAAAAAAAAA=</HashCode>
+      <FileName>Login_Service.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Login_DAO" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="Restaurant_Logic.MenuItem_Service">
+    <Position X="17" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAgEAAAAAAAAAAAAAAgAAAAAAAAAAAAIAAAAAAAAAA=</HashCode>
+      <FileName>MenuItem_Service.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="MenuItem_DAO" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="Restaurant_Logic.Order_Service">
+    <Position X="14.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAQAAAIAAAAAAAAAAAAAAAIAAAAAAIAAAAAAAAAA=</HashCode>
+      <FileName>Order_Service.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Order_DAO" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="Restaurant_Logic.Payment_Service">
+    <Position X="5.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAACAAAAAgAAAAAAAAAAAAAAAAABAAAAAAAAAAA=</HashCode>
+      <FileName>Payment_Service.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Registration_db" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="Restaurant_Logic.Table_Service">
+    <Position X="10.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEAAAAAAAAAAAAACAAAAAgAAAAAAAAAAIAAAAAAAAAA=</HashCode>
+      <FileName>Table_Service.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Table_DAO" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="Restaurant_DAL.Base" Collapsed="true">
+    <Position X="11.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="Restaurant_DAL.Employee_DAO">
+    <Position X="8" Y="1.75" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="Restaurant_DAL.Login_DAO">
+    <Position X="12.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="Restaurant_DAL.Payment_DAO">
+    <Position X="5.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="Restaurant_DAL.Table_DAO">
+    <Position X="10.25" Y="1.75" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="Restaurant_DAL.MenuItem_DAO">
+    <Position X="17" Y="1.75" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="Restaurant_DAL.Order_DAO">
+    <Position X="14.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

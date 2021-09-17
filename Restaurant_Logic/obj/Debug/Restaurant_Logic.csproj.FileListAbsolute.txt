@@ -1,0 +1,13 @@
+C:\Users\prins\Documents\GitHub\restaurant-ordering-system\Restaurant_Logic\bin\Debug\Restaurant_Logic.dll.config
+C:\Users\prins\Documents\GitHub\restaurant-ordering-system\Restaurant_Logic\bin\Debug\Restaurant_Logic.dll
+C:\Users\prins\Documents\GitHub\restaurant-ordering-system\Restaurant_Logic\bin\Debug\Restaurant_Logic.pdb
+C:\Users\prins\Documents\GitHub\restaurant-ordering-system\Restaurant_Logic\bin\Debug\RestaurantModel.dll
+C:\Users\prins\Documents\GitHub\restaurant-ordering-system\Restaurant_Logic\bin\Debug\Restaurant_DAL.dll
+C:\Users\prins\Documents\GitHub\restaurant-ordering-system\Restaurant_Logic\bin\Debug\RestaurantModel.pdb
+C:\Users\prins\Documents\GitHub\restaurant-ordering-system\Restaurant_Logic\bin\Debug\RestaurantModel.dll.config
+C:\Users\prins\Documents\GitHub\restaurant-ordering-system\Restaurant_Logic\bin\Debug\Restaurant_DAL.pdb
+C:\Users\prins\Documents\GitHub\restaurant-ordering-system\Restaurant_Logic\bin\Debug\Restaurant_DAL.dll.config
+C:\Users\prins\Documents\GitHub\restaurant-ordering-system\Restaurant_Logic\obj\Debug\Restaurant_Logic.csprojAssemblyReference.cache
+C:\Users\prins\Documents\GitHub\restaurant-ordering-system\Restaurant_Logic\obj\Debug\Restaurant_Logic.csproj.CopyComplete
+C:\Users\prins\Documents\GitHub\restaurant-ordering-system\Restaurant_Logic\obj\Debug\Restaurant_Logic.dll
+C:\Users\prins\Documents\GitHub\restaurant-ordering-system\Restaurant_Logic\obj\Debug\Restaurant_Logic.pdb
